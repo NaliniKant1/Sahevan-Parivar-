@@ -160,6 +160,9 @@ h2::after{content:"";display:block;width:64px;height:4px;background:var(--gold);
 <p>Help complete the Kursinama: corrections, missing branches, photos and stories are welcome.</p>
 <div class="card"><h3>Address</h3><p>Village Kajoor, Block Mohra, District Gaya ji, Bihar 805131, India</p></div>
 <div class="card" style="margin-top:14px"><h3>Send a correction</h3><p>Add your email, phone or form link here before sharing the site.</p></div>
+<div class="card" style="margin-top:14px"><h3>Important links</h3>
+<p><a href="https://www.livehindustan.com/bihar/nawada/story-nari-shakti-mp-satyabhama-devi-had-donated-500-bighas-of-land-9689048.html" target="_blank" rel="noopener noreferrer" style="color:var(--acc);font-weight:600">Hindustan Post</a></p>
+<p><a href="https://share.google/0c5EvhFRCNv2HVEGA" target="_blank" rel="noopener noreferrer" style="color:var(--acc);font-weight:600">Wikipedia Post</a></p></div>
 </section>
 </main>
 <footer>© All Rights Reserved · Sahevan Family, Kajoor, Gaya ji, Bihar</footer>
@@ -206,5 +209,4 @@ const pages=[...document.querySelectorAll(".page")],links=[...document.querySele
 function route(){const h=(location.hash||"#home").slice(1);const id=pages.some(p=>p.id===h)?h:"home";
 pages.forEach(p=>p.classList.toggle("on",p.id===id));links.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+id));scrollTo(0,0)}
 addEventListener("hashchange",route);route();
-document.getElementById("th").onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=dark?"light":"dark"};
-</script></body></html>
+document.getElementById("th").onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme
