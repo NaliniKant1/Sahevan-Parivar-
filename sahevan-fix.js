@@ -60,8 +60,8 @@
   a('pankaj', 'Pankaj Kumar', 'dhananjay', { sp: 'Sangita of Kariyana near Shilao, Rajgir' });
   a('priyanshu', 'Priyanshu', 'pankaj');
   a('shashi', 'Shashi Ranjan', 'madan', { sp: 'Madhurima Pandey of Sitalpur, Chhapra' });
-  a('nishikant', 'Nishikant', 'shashi', { al: ['Nishi Kant'], note: 'Specialised computer engineer.' });
-  a('rishikant', 'Rishikant', 'shashi', { al: ['Rishi Kant'] });
+  a('aman', 'Aman', 'shashi', { al: ['Aman']});
+  a('ankit', 'Ankit', 'shashi', { al: ['Ankit'] });
   a('shashank', 'Shashank Shekhar', 'madan', { sp: 'Nivedita Manju of Rampur Sinday near Sheikhpura' });
   a('nalini', 'Nalini Kant', 'shashank', { al: ['Nalinikant'], note: 'Specialised electronics engineer.' });
   a('ravi', 'Ravi Ranjan', 'madan', { sp: 'Kanchana of Narauli, Nawada', note: 'Eminent electronics engineer; Director at NXP Semiconductors.' });
